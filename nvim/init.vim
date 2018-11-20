@@ -21,6 +21,9 @@ set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 if dein#load_state('~/.cache/dein')
   call dein#begin('~/.cache/dein')
 
+  call dein#load_toml(s:dein_dir . '/eager.toml', {'lazy': 0})
+  call dein#load_toml(s:dein_dir . '/lazy.toml', {'lazy': 1})
+
   call dein#add('~/.cache/dein/repos/github.com/Shougo/dein.vim')
   call dein#add('Shougo/deoplete.nvim')
   if has('nvim')
