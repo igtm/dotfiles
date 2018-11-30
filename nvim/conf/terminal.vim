@@ -8,3 +8,4 @@ set clipboard=unnamed  "yank した文字列をクリップボードにコピー
 set hls                "検索した文字をハイライトする
 
 set cursorline         "カーソルライン表示
+set inccommand=nosplit "リアルタイム置換プレビュー
