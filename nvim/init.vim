@@ -2,7 +2,8 @@ let s:config_home = empty($XDG_CONFIG_HOME) ? expand('~/.config') : $XDG_CONFIG_
 let s:dein_dir = s:config_home . '/nvim'
 let g:python3_host_prog = expand('~/.pyenv/shims/python')
 
-runtime! /conf/*.vim
+runtime! /base/*.vim
+runtime! /plugins/*.vim
 
 if &compatible
   set nocompatible
