@@ -79,6 +79,14 @@ repo = 'tpope/vim-fugitive'
 repo = 'w0rp/ale'
 
 [[plugins]]
+repo = 'Shougo/deoplete.nvim'
+hook_add = '''
+
+  let g:deoplete#enable_at_startup = 1
+
+'''
+
+[[plugins]]
 repo = 'Lokaltog/vim-easymotion'
 hook_add = '''
   " デフォルトのキーマッピングを無効に
