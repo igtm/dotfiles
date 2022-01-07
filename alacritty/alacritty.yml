@@ -1,5 +1,7 @@
 shell:
   program: /usr/bin/zsh
+env:
+  TERM: xterm-256color
 # テーマ
 colors:
   primary:
