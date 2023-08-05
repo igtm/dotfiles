@@ -1,0 +1,39 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "workbench.editor.enablePreview": false,
+  "editor.scrollBeyondLastLine": false,
+  "breadcrumbs.enabled": true,
+  "window.titleBarStyle": "custom",
+  "window.zoomLevel": 2,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "githubPullRequests.terminalLinksHandler": "github",
+  "editor.inlineSuggest.enabled": true,
+  "explorer.confirmDelete": false,
+  "workbench.colorCustomizations": {
+    "editor.findMatchBackground": "#E6007E",
+    "editor.findMatchHighlightBackground": "#E6007E"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "jupyter.askForKernelRestart": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}
