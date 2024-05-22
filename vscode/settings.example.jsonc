@@ -33,7 +33,10 @@
   },
   "explorer.confirmDragAndDrop": false,
   "jupyter.askForKernelRestart": false,
+  "explorer.confirmPasteNative": false,
   "editor.quickSuggestions": {
-    "strings": true
-  }
+    "other": "off"
+  },
+  "editor.hover.enabled": false,
+  "files.insertFinalNewline": true,
 }
