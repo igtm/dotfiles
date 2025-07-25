@@ -23,6 +23,7 @@ alias gdh='git diff head'
 alias gpoh='git push origin head'
 alias gcp='git cherry-pick'
 alias gl='git lg'
+alias gn='git next'
 alias todo='git grep -EI "TODO|FIXME"'
 
 # github cli
@@ -38,10 +39,8 @@ alias ds='docker ps'
 alias de='docker exec -it'
 
 # other cli
-alias ll='eza -al --icons'
+alias ll='exa -al --icons'
 alias k='kubectl'
 alias vi='nvim'
-alias nv='nvim'
 alias lg='lazygit'
 alias tf='terraform'
-alias cd='z'
