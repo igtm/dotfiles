@@ -25,6 +25,7 @@ alias gcp='git cherry-pick'
 alias gl='git lg'
 alias gn='git next'
 alias todo='git grep -EI "TODO|FIXME"'
+alias rmmb='git branch --merged | grep -v master | grep -v production | grep -v "*" | grep -v -F -f <(git worktree list | awk "{print \$3}" | sed "s/[\\[\\]]//g") | xargs -I % git branch -d % && git remote prune origin'
 
 # github cli
 alias ghpl='gh pr list'
@@ -44,3 +45,5 @@ alias vi='nvim'
 alias lg='lazygit'
 alias tf='terraform'
 alias cc='claude --dangerously-skip-permissions'
+alias dlf='f() { docker compose logs "$1" -f --no-log-prefix | sed -E "s/^[^ ]+ +//" | fzf --ansi --no-sort --tac --preview "echo {}" --preview-window=wrap:50%; }; f'
+
